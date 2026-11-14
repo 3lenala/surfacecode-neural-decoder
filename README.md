@@ -38,7 +38,13 @@ The d = 3 and d = 5 curves cross around p = 1 %, which is the expected threshold
 pip install stim pymatching sinter numpy matplotlib
 ```
 
-Then run the Phase 1 notebook.
+Then run proyect.py.
+
+## Baseline: Config: p = 0.009, d = 3, r = 3, test shots = 1,000,000
+Detectors per shot: 24
+Fraction of flips in test: 0.1717
+PyMatching logical error rate: 4.9502% ± 0.0217%
+PyMatching time per shot: 0.74 µs
 
 ## Next steps
 
